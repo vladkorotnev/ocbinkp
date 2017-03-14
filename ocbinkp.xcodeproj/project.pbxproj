@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860417801E11446D0040BF4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8604177F1E11446D0040BF4F /* AppDelegate.m */; };
+		860417821E11446D0040BF4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860417811E11446D0040BF4F /* main.m */; };
+		860417841E11446D0040BF4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860417831E11446D0040BF4F /* Images.xcassets */; };
+		860417871E11446E0040BF4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860417851E11446E0040BF4F /* MainMenu.xib */; };
+		860417931E11446E0040BF4F /* ocbinkpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 860417921E11446E0040BF4F /* ocbinkpTests.m */; };
+		860417A21E1144760040BF4F /* ARBinkProtocolSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8604179D1E1144760040BF4F /* ARBinkProtocolSocket.m */; };
+		860417A31E1144760040BF4F /* ARBinkTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8604179F1E1144760040BF4F /* ARBinkTransactionManager.m */; };
+		860417A41E1144760040BF4F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 860417A11E1144760040BF4F /* GCDAsyncSocket.m */; };
+		860417A71E117B7C0040BF4F /* ARBinkFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 860417A61E117B7C0040BF4F /* ARBinkFile.m */; };
+		860417B01E119E330040BF4F /* ARBinkPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 860417AF1E119E330040BF4F /* ARBinkPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8604178D1E11446E0040BF4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860417711E11446D0040BF4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860417781E11446D0040BF4F;
+			remoteInfo = ocbinkp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		860417791E11446D0040BF4F /* ocbinkp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ocbinkp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8604177D1E11446D0040BF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8604177E1E11446D0040BF4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8604177F1E11446D0040BF4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		860417811E11446D0040BF4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		860417831E11446D0040BF4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		860417861E11446E0040BF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8604178C1E11446E0040BF4F /* ocbinkpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocbinkpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860417911E11446E0040BF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860417921E11446E0040BF4F /* ocbinkpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ocbinkpTests.m; sourceTree = "<group>"; };
+		8604179C1E1144760040BF4F /* ARBinkProtocolSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARBinkProtocolSocket.h; sourceTree = "<group>"; };
+		8604179D1E1144760040BF4F /* ARBinkProtocolSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARBinkProtocolSocket.m; sourceTree = "<group>"; };
+		8604179E1E1144760040BF4F /* ARBinkTransactionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARBinkTransactionManager.h; sourceTree = "<group>"; };
+		8604179F1E1144760040BF4F /* ARBinkTransactionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARBinkTransactionManager.m; sourceTree = "<group>"; };
+		860417A01E1144760040BF4F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		860417A11E1144760040BF4F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		860417A51E117B7C0040BF4F /* ARBinkFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARBinkFile.h; sourceTree = "<group>"; };
+		860417A61E117B7C0040BF4F /* ARBinkFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARBinkFile.m; sourceTree = "<group>"; };
+		860417A81E118CC60040BF4F /* ARBinkStructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARBinkStructs.h; sourceTree = "<group>"; };
+		860417AE1E119E330040BF4F /* ARBinkPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARBinkPoint.h; sourceTree = "<group>"; };
+		860417AF1E119E330040BF4F /* ARBinkPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARBinkPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860417761E11446D0040BF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860417891E11446E0040BF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860417701E11446D0040BF4F = {
+			isa = PBXGroup;
+			children = (
+				8604177B1E11446D0040BF4F /* ocbinkp */,
+				8604178F1E11446E0040BF4F /* ocbinkpTests */,
+				8604177A1E11446D0040BF4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8604177A1E11446D0040BF4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860417791E11446D0040BF4F /* ocbinkp.app */,
+				8604178C1E11446E0040BF4F /* ocbinkpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8604177B1E11446D0040BF4F /* ocbinkp */ = {
+			isa = PBXGroup;
+			children = (
+				8604177E1E11446D0040BF4F /* AppDelegate.h */,
+				8604177F1E11446D0040BF4F /* AppDelegate.m */,
+				860417A81E118CC60040BF4F /* ARBinkStructs.h */,
+				860417AE1E119E330040BF4F /* ARBinkPoint.h */,
+				860417AF1E119E330040BF4F /* ARBinkPoint.m */,
+				860417A51E117B7C0040BF4F /* ARBinkFile.h */,
+				860417A61E117B7C0040BF4F /* ARBinkFile.m */,
+				8604179C1E1144760040BF4F /* ARBinkProtocolSocket.h */,
+				8604179D1E1144760040BF4F /* ARBinkProtocolSocket.m */,
+				8604179E1E1144760040BF4F /* ARBinkTransactionManager.h */,
+				8604179F1E1144760040BF4F /* ARBinkTransactionManager.m */,
+				860417A01E1144760040BF4F /* GCDAsyncSocket.h */,
+				860417A11E1144760040BF4F /* GCDAsyncSocket.m */,
+				860417831E11446D0040BF4F /* Images.xcassets */,
+				860417851E11446E0040BF4F /* MainMenu.xib */,
+				8604177C1E11446D0040BF4F /* Supporting Files */,
+			);
+			path = ocbinkp;
+			sourceTree = "<group>";
+		};
+		8604177C1E11446D0040BF4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8604177D1E11446D0040BF4F /* Info.plist */,
+				860417811E11446D0040BF4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8604178F1E11446E0040BF4F /* ocbinkpTests */ = {
+			isa = PBXGroup;
+			children = (
+				860417921E11446E0040BF4F /* ocbinkpTests.m */,
+				860417901E11446E0040BF4F /* Supporting Files */,
+			);
+			path = ocbinkpTests;
+			sourceTree = "<group>";
+		};
+		860417901E11446E0040BF4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				860417911E11446E0040BF4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860417781E11446D0040BF4F /* ocbinkp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860417961E11446E0040BF4F /* Build configuration list for PBXNativeTarget "ocbinkp" */;
+			buildPhases = (
+				860417751E11446D0040BF4F /* Sources */,
+				860417761E11446D0040BF4F /* Frameworks */,
+				860417771E11446D0040BF4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ocbinkp;
+			productName = ocbinkp;
+			productReference = 860417791E11446D0040BF4F /* ocbinkp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8604178B1E11446E0040BF4F /* ocbinkpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860417991E11446E0040BF4F /* Build configuration list for PBXNativeTarget "ocbinkpTests" */;
+			buildPhases = (
+				860417881E11446E0040BF4F /* Sources */,
+				860417891E11446E0040BF4F /* Frameworks */,
+				8604178A1E11446E0040BF4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8604178E1E11446E0040BF4F /* PBXTargetDependency */,
+			);
+			name = ocbinkpTests;
+			productName = ocbinkpTests;
+			productReference = 8604178C1E11446E0040BF4F /* ocbinkpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860417711E11446D0040BF4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Akasaka Ryuunosuke";
+				TargetAttributes = {
+					860417781E11446D0040BF4F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8604178B1E11446E0040BF4F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 860417781E11446D0040BF4F;
+					};
+				};
+			};
+			buildConfigurationList = 860417741E11446D0040BF4F /* Build configuration list for PBXProject "ocbinkp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860417701E11446D0040BF4F;
+			productRefGroup = 8604177A1E11446D0040BF4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860417781E11446D0040BF4F /* ocbinkp */,
+				8604178B1E11446E0040BF4F /* ocbinkpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860417771E11446D0040BF4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860417841E11446D0040BF4F /* Images.xcassets in Resources */,
+				860417871E11446E0040BF4F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8604178A1E11446E0040BF4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860417751E11446D0040BF4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860417A71E117B7C0040BF4F /* ARBinkFile.m in Sources */,
+				860417B01E119E330040BF4F /* ARBinkPoint.m in Sources */,
+				860417821E11446D0040BF4F /* main.m in Sources */,
+				860417A41E1144760040BF4F /* GCDAsyncSocket.m in Sources */,
+				860417A31E1144760040BF4F /* ARBinkTransactionManager.m in Sources */,
+				860417A21E1144760040BF4F /* ARBinkProtocolSocket.m in Sources */,
+				860417801E11446D0040BF4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860417881E11446E0040BF4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860417931E11446E0040BF4F /* ocbinkpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8604178E1E11446E0040BF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860417781E11446D0040BF4F /* ocbinkp */;
+			targetProxy = 8604178D1E11446E0040BF4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		860417851E11446E0040BF4F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860417861E11446E0040BF4F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860417941E11446E0040BF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		860417951E11446E0040BF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		860417971E11446E0040BF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ocbinkp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		860417981E11446E0040BF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ocbinkp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8604179A1E11446E0040BF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ocbinkpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocbinkp.app/Contents/MacOS/ocbinkp";
+			};
+			name = Debug;
+		};
+		8604179B1E11446E0040BF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ocbinkpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocbinkp.app/Contents/MacOS/ocbinkp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860417741E11446D0040BF4F /* Build configuration list for PBXProject "ocbinkp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860417941E11446E0040BF4F /* Debug */,
+				860417951E11446E0040BF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860417961E11446E0040BF4F /* Build configuration list for PBXNativeTarget "ocbinkp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860417971E11446E0040BF4F /* Debug */,
+				860417981E11446E0040BF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		860417991E11446E0040BF4F /* Build configuration list for PBXNativeTarget "ocbinkpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8604179A1E11446E0040BF4F /* Debug */,
+				8604179B1E11446E0040BF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860417711E11446D0040BF4F /* Project object */;
+}
