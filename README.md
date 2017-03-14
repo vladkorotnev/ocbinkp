@@ -31,5 +31,29 @@ __Work in progress!__ _Wow, much software, such beta_
     
     // Do a barrel poll
     [self.mgr poll];
+    
+
+```
+
+# Delegate methods
+
+```
+
+    /* Event of getting a new file in the incoming queue */
+    - (void) pollDidGetFile:(ARBinkFile *)file atPoller:(ARBinkTransactionManager *)poller {
+        NSLog(@"!! Got file %@ !!",file.name);
+        // send this file back to the server :-)
+        [self.mgr.outgoing addObject:file];
+    }
+    
+    /* Event of finishing transaction with server */
+    - (void) pollDidComplete:(ARBinkTransactionManager*)poller {
+        // log any files we got
+        for (ARBinkFile *inFile in poller.incoming) {
+            NSLog(@"========== %@ ===========",inFile.name);
+            NSString*s = [[NSString alloc]initWithData:inFile.content encoding:NSUTF8StringEncoding];
+            NSLog(@"%@",s);
+        }
+    }
 
 ```
